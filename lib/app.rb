@@ -26,4 +26,4 @@ def perform(page)
   link_cryptos(names_crypto(page), values_crypto(page)) #<= appelle mes defs
 end
 
-perform(page)
+puts perform(page).inspect
